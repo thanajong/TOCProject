@@ -13,15 +13,15 @@ def testSplit(str):
     s.pop()
     return s.copy()
     
-a = testSplit('สวัสดีวันจันทร์วันนี้วันสุขสบาย')
-print(a)
-a = testSplit('กราบ')
-print(a)
-a = testSplit('หวาย')
-print(a)
+# a = testSplit('สวัสดีวันจันทร์วันนี้วันสุขสบาย')
+# print(a)
+# a = testSplit('กราบ')
+# print(a)
+# a = testSplit('หวาย')
+# print(a)
 
-if tltk.nlp.th2read('ก่ั่ว') == '':
-    print('ff')
+# if tltk.nlp.th2read('ก่ั่ว') == '':
+#     print('ff')
 # print(tltk.nlp.th2read('ผมอยู่คุณ'))
 # for i in tltk.nlp.th2read('อยู่'):
 #     print(i)
